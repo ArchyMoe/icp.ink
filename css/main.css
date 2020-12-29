@@ -31,6 +31,7 @@ nav li a p {
     font-size: 70%;
 }
 img.logo {
+    padding: 3px 0px;
     background-color: #f05dda;
     width: 70px;
 }
