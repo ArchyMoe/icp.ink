@@ -1,67 +1,4 @@
-/* Basic Settings */
-* {
-    margin: 0px;
-    padding: 0px;
-}
-a, a:link {
-    text-decoration: none;
-    color: #7c4dff;
-}
-a:hover, a:active {
-    text-decoration: none;
-    color: #ff1744;
-}
-nav {
-    width: 70px;
-    height: calc(100vh);
-    float: left;
-    position: fixed;
-    background-color: #fafafa !important;
-    box-shadow: 4px 5px 15px rgba(50,50,93,.1),2px 5px 8px rgba(0,0,0,.07) !important;
-}
-nav li {
-    text-align: center;
-    padding: 0px auto;
-    margin-top: 10px;
-    list-style: none;
-    background-color: #fafafa !important;
-}
-nav li a p {
-    text-align: center;
-    font-size: 70%;
-}
-img.logo {
-    padding: 3px 0px;
-    background-color: #f05dda;
-    width: 70px;
-}
-@keyframes rotate {
-    from {transform: rotate(0deg);}
-    to {transform: rotate(360deg);}
-}
-img.logo:hover {
-    animation-name: rotate;
-    animation-duration: 1s;
-    animation-timing-function: ease-in-out;
-    animation-delay: .1s;
-}
-.tag {
-    font-size: 65%;
-    border-radius:50px !important;
-    padding-left:10px;
-    padding-right:10px;
-    padding-top:4px;
-    padding-bottom:4px;
-    transition:all .15s;
-    color: white;
-}
-.tag:hover {
-    transform: translateY(-1px);
-    box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
-}
-.tag.purple, .tag.admin {
-    background-color: #8e44ad;
-}
+
 div.header {
     margin-left: 70px;
     padding: 4px;
@@ -73,10 +10,9 @@ p.leftSp {
     margin-top: 34px;
     transform: translateY(-50%);
 }
-div.bd {
-    margin-left: 70px;
-    padding: 4px;
-    min-height: calc(100vh);
-    background-color: #f4f5f7;
-    display: block;
+div.container {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
 }
+
