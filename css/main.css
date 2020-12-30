@@ -1,8 +1,10 @@
 * {
+	
 	margin: 0;
 	padding: 0;
 }
 div.container {
+	font-family: 'Ma Shan Zheng', cursive;
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -12,12 +14,14 @@ div.container {
 	-o-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
 }
-p {
+p {	
+	font-family: 'Ma Shan Zheng', cursive;
 	margin-top: 1rem;
 	margin-bottom: 1rem;
 	text-align: center
 }
 a {
+	font-family: 'Ma Shan Zheng', cursive;
 	color:#2196f3;
 	cursor:pointer;
 	text-decoration:none;
