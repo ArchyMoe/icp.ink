@@ -1,18 +1,8 @@
-
-div.header {
-    margin-left: 70px;
-    padding: 4px;
-    height: 68px;
-    box-shadow: 4px 5px 15px rgba(50,50,93,.1),2px 5px 8px rgba(0,0,0,.07) !important;
-}
-p.leftSp {
-    margin-left: 50px;
-    margin-top: 34px;
-    transform: translateY(-50%);
-}
 div.container {
-    margin: 0 auto;
     display: flex;
     align-items: center;
+    justify-content: center;
+    text-align: justify;
+    margin: 0 auto;
 }
 
