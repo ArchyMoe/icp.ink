@@ -4,6 +4,17 @@
     <title>墨备 - 民间娱乐性网站备案</title>
     <link rel="stylesheet" type="text/css" href="/css/main.css">
   </head>
+  <script>
+    $(window).resize(function(){ 
+      $('.container').css({ 
+      position:'absolute', 
+      left: ($(window).width() - $('.container').outerWidth())/2, 
+      top: ($(window).height() - $('.container').outerHeight())/2 
+      }); 
+    }); 
+    $(window).resize();
+  </script>
+  
   <body>
     <div class="container">
       <p>咕咕&搭建中，欢迎邮箱admin@nekox.cn加入开发</p>
