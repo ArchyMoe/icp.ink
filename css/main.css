@@ -4,11 +4,12 @@ div.container {
     justify-content: center;
     text-align: justify;
     margin: 0 auto;
+    .container:after {
+        display:inline-block;
+        width:0;
+        height:100%;
+        vertical-align:middle;
+        content:"";
+    }
 }
-.wrapper:after {
-    display:inline-block;
-    width:0;
-    height:100%;
-    vertical-align:middle;
-    content:"";
-}
+
