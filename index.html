@@ -5,7 +5,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&display=swap" rel="stylesheet">
     <title>墨备 - 民间娱乐性网站备案</title>
     <link rel="stylesheet" type="text/css" href="/css/main.css">
-    <script src="/js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert"></script>
+    <!--<script src="/js/index.js"></script>-->
     <link rel="shortcut icon" href="ink.svg" type="image/x-icon" />
     <link
       rel="stylesheet"
@@ -20,10 +21,24 @@
     ></script>
   </head>
   
+  <script>
+      function Search(){
+          alert("还没写好");
+      }
+
+      function SiteJoin(){
+
+      }
+    
+      function AboutSite(){
+      
+      }
+  </script>
+  
   <body>
     <div class="container">
       <div class="mdui-container">
-        <div class="mdui-row-xs-3">
+        <div class="mdui-row-xs-4">
           <div class="mdui-col">
             <button class="mdui-color-blue-grey-600 mdui-btn mdui-btn-block mdui-ripple mdui-hoverable" onclick="Search()"><i class="mdui-icon material-icons">search</i>查询</button>
           </div>
@@ -31,7 +46,10 @@
             <button class="mdui-color-pink-a200 mdui-btn mdui-btn-block mdui-ripple mdui-hoverable" onclick="SiteJoin()"><i class="mdui-icon material-icons">card_membership</i>加入</button>
           </div>
           <div class="mdui-col">
-            <button class="mdui-color-light-blue-300 mdui-btn mdui-btn-block mdui-ripple mdui-hoverable" onclick="AboutSite()"><i class="mdui-icon material-icons">info</i>关于</button>
+            <button class="mdui-color-light-blue-300 mdui-btn mdui-btn-block mdui-ripple mdui-hoverable" onclick="AboutSite()"><i class="mdui-icon material-icons">info_outline</i>关于</button>
+          </div>
+          <div class="mdui-col">
+            <button class="mdui-color-yellow mdui-btn mdui-btn-block mdui-ripple mdui-hoverable" onclick="License()"><i class="mdui-icon material-icons">lock_outline</i>使用协议</button>
           </div>
         </div>
       </div>
