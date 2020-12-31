@@ -1,6 +1,6 @@
 ---
 name: 将自己的站点加入墨备
-about: 请点右侧`Get Started`按钮
+about: 加入墨备可选此模板
 ---
 
 [申请前必看](https://icp.ink/join.html)
