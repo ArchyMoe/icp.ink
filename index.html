@@ -32,9 +32,22 @@
           title: "WARNING",
           text: "你是否已经完整阅读了“使用协议”页面并同意其中的所有内容？",
           dangerMode: true,
-          showCancelButton: false,
-          confirmButtonText: "是的",
-          cancelButtonText: "并不",
+          buttons: {
+            cancel: {
+              text: "暂时不",
+              value: null,
+              visible: true,
+              className: "",
+              closeModal: true,
+            },
+            confirm: {
+              text: "是的",
+              value: true,
+              visible: true,
+              className: "",
+              closeModal: false
+            }
+          }
         })
           .then(willDelete => {
           if (willDelete) {
