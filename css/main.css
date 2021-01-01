@@ -41,12 +41,6 @@ div.container {
 	background: -o-linear-gradient(top, #87CEFA, #FFA500);*/
 }
 
-#canvas{
-	 position: fixed;
-         background: #ccc;
-	 overflow: auto;
-	 z-index: -1;
-}
 
 p {	
 	font-family: 'Ma Shan Zheng', cursive;
