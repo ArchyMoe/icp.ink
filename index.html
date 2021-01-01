@@ -27,7 +27,7 @@
       }
 
       function SiteJoin(){
-        const isConfirmed = await swal({
+        swal({
           title: "WARNING",
           text: "你是否已经完整阅读了“使用协议”页面并同意其中的所有内容？",
           type: "warning",
@@ -35,16 +35,16 @@
           confirmButtonColor: "#DD6B55",
           confirmButtonText: "是的",
           cancelButtonText: "并不",
-          closeOnConfirm: false,
-          closeOnCancel: false
-        });
+          dangerMode: true,
+        })
         
-          if (isConfirmed) {
+          .then(willDelete => {
+          if (willDelete) {
           swal("还没写好","鸽子ArchyMoe和rui_er正在咕咕咕！","error");
           } else {
           swal("下次见！","您可以去阅读“使用协议”或是关闭此网站！","error");
           }
-        
+        });
       }
     
       function AboutSite(){
