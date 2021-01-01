@@ -34,26 +34,13 @@ div.container {
 	-moz-box-shadow: 4px 4px 16px #909090;
 	-webkit-box-shadow: 4px 4px 16px #909090;
 	box-shadow:4px 4px 16px #909090;
-	z-index: 0;
-  	position: relative;
-  	overflow: hidden;
 	/*background:-moz-linear-gradient(top,#87CEFA,#FFA500); 
 	background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#87CEFA), to(#FFA500)); 
 	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#87CEFA), to(#FFA500));
 	background: -webkit-linear-gradient(top, #87CEFA, #FFA500);
 	background: -o-linear-gradient(top, #87CEFA, #FFA500);*/
 }
-div.container:before {
-          content: "";/* 必须包括 */
-	  position: absolute;/* 固定模糊层位置 */
-	  width:300%;
-	  height:300%;
-	  left: -100%;/* 回调模糊层位置 */
-	  top: -100%;/* 回调模糊层位置 */
-	  background:url('https://cdn.jsdelivr.net/gh/userunknownx/blog-bg/20.jpg') no-repeat center center fixed;/* 与上面的bg中的background设置一样 */
-	  filter: blur(5px);/* 值越大越模糊 */
-	  z-index: -2;/* 模糊层在最下面 */
-}
+
 .rgba{
   background-color: rgba(0, 0, 0, 0.2);/* 为文字更好显示，将背景颜色加深 */
   position: absolute;/* 固定半透明色层位置 */
