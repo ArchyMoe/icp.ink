@@ -4,6 +4,7 @@
 	padding: 0;
 }
 div.container {
+	opacity:1.0;
 	font-family: 'Ma Shan Zheng', cursive;
 	position: absolute;
 	top: 50%;
