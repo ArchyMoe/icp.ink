@@ -1,10 +1,8 @@
 * {
 	
+	background-image:url('https://api.dongmanxingkong.com/suijitupian/acg/1080p/index.php');
 	margin: 0;
 	padding: 0;
-}
-div.backg {
-	background-image:url('https://api.dongmanxingkong.com/suijitupian/acg/1080p/index.php');
 }
 div.container {
 	opacity:1.0;
