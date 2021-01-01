@@ -51,7 +51,7 @@ div.container:before {
 	  left: -100%;/* 回调模糊层位置 */
 	  top: -100%;/* 回调模糊层位置 */
 	  background:url('https://cdn.jsdelivr.net/gh/userunknownx/blog-bg/20.jpg') no-repeat center center fixed;/* 与上面的bg中的background设置一样 */
-	  filter: blur(20px);/* 值越大越模糊 */
+	  filter: blur(5px);/* 值越大越模糊 */
 	  z-index: -2;/* 模糊层在最下面 */
 }
 .rgba{
