@@ -18,7 +18,7 @@ div.container {
    	border:#909090 1px solid;
 	background:#fff;
 	color:#333;
-	filter:progid:DXImageTransform.Microsoft.Shadow(color=#909090,direction=120,strength=4);
+	filter:progid:DXImageTransform.Microsoft.Shadow(color=#909090,direction=200,strength=4);
 	-moz-box-shadow: 4px 4px 16px #909090;
 	-webkit-box-shadow: 4px 4px 16px #909090;
 	box-shadow:4px 4px 16px #909090;
