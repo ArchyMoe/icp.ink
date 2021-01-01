@@ -1,4 +1,8 @@
 * {
+	margin: 0;
+	padding: 0;
+}
+div.bg {
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -9,8 +13,6 @@
 	background-position: center;
 	background-size: cover;
 	background-attachment: fixed;
-	margin: 0;
-	padding: 0;
 }
 div.container {
 	opacity:1.0;
