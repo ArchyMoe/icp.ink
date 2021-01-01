@@ -22,11 +22,11 @@ div.container {
 	-moz-box-shadow: 4px 4px 16px #909090;
 	-webkit-box-shadow: 4px 4px 16px #909090;
 	box-shadow:4px 4px 16px #909090;
-	background:-moz-linear-gradient(top,#b8c4cb,#f6f6f8);/*火狐*/ 
-	background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#b8c4cb), to(#f6f6f8));/*谷歌*/ 
-	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#0000ff));      /* Safari 4-5, Chrome 1-9*/
-	background: -webkit-linear-gradient(top, #fff, #0000ff);   /*Safari5.1 Chrome 10+*/
-	background: -o-linear-gradient(top, #fff, #0000ff);  /*Opera 11.10+*/
+	background:-moz-linear-gradient(top,#87CEFA,#FFA500);/*火狐*/ 
+	background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#87CEFA), to(#FFA500));/*谷歌*/ 
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#87CEFA), to(#FFA500));      /* Safari 4-5, Chrome 1-9*/
+	background: -webkit-linear-gradient(top, #87CEFA, #FFA500);   /*Safari5.1 Chrome 10+*/
+	background: -o-linear-gradient(top, #87CEFA, #FFA500);  /*Opera 11.10+*/
 }
 p {	
 	font-family: 'Ma Shan Zheng', cursive;
