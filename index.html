@@ -28,24 +28,19 @@
 
       function SiteJoin(){
         swal({
-          title: "WARNING",
+          title: "Note",
           text: "你是否已经完整阅读了“使用协议”页面并同意其中的所有内容？",
           type: "warning",
           showCancelButton: true,
           confirmButtonColor: "#DD6B55",
-          confirmButtonText: "是的",
-          cancelButtonText: "并不",
-          closeOnConfirm: false,
-          closeOnCancel: false
+          confirmButtonText: "确定删除！",
+          closeOnConfirm: false
         },
-        function(isConfirm){
-          if (isConfirm) {
-          swal("还没写好","鸽子ArchyMoe和rui_er正在咕咕咕！","error");
-          } else {
-          swal("下次见！","您可以去阅读“使用协议”或是关闭此网站！","error");
-          }
+        function(){
+          swal("还没写好", "鸽子ArchyMoe和rui_er正在赶工！", "error");
         });
       }
+    
       function AboutSite(){
           swal("还没写好","鸽子ArchyMoe和rui_er正在咕咕咕！","error");
       }
