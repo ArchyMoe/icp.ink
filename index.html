@@ -64,18 +64,22 @@
       function agreement(){
           swal("还没写好","鸽子ArchyMoe和rui_er正在咕咕咕！","error");
       }
+    
+      function updLog(){
+          swal({
+            title: "墨备公告",
+            showConfirmButton: false,
+            text: "<iframe height="290px" width="720px" src="https://artitalkjs.vercel.app"></iframe>",
+            html: true
+          });
+      }
   </script>
   
   <body>
     <div class="bg"></div>
-    <button class="mdui-color-grey-50 mdui-btn mdui-ripple mdui-hoverable" mdui-dialog="{target: '#updLog'}"><i class="mdui-icon material-icons">notifications_none</i>更新公告</button>
-    <div class="container">
-      
+    <div class="container">      
       <h1>墨备 - 民间娱乐性网站备案</h1>
       <div class="mdui-container">
-        <div class="mdui-dialog" id="updLog">
-          <iframe height="290px" width="720px" src="https://artitalkjs.vercel.app"></iframe>
-        </div>
         <div class="mdui-row-xs-4">
           <div class="mdui-col">
             <button class="mdui-color-blue-grey-600 mdui-btn mdui-btn-block mdui-ripple mdui-hoverable" onclick="Search()"><i class="mdui-icon material-icons">search</i>查询</button>
